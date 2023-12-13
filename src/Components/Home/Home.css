@@ -1,0 +1,24 @@
+.breed_table {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.bt-heading {
+    color: #fff700;
+    background-color: gray;
+}
+.breed_item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    color: blue;
+    background-color: beige;
+}
+
+.breed_item div {
+    border: 1px solid black;
+    padding: 8px 16px;
+}
+
+

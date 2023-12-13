@@ -1,0 +1,30 @@
+.cat--char {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4px 8px;
+    border: 1px solid black;
+}
+
+/* .cat--char div {
+    width:50%
+} */
+
+.cat-desc {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 16px;
+    border: 1px solid black;
+}
+
+.cats-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.cat--image img {
+    width:250px;
+    height:auto;
+}
